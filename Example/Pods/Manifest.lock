@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - ZCLTools (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - ZCLTools (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  ZCLTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  ZCLTools: 5ad12cb254c36a8ebd2b77608241e00f4ebd4596
+
+PODFILE CHECKSUM: daaad44b24036fd9a65186ee6de20cffe9815db7
+
+COCOAPODS: 1.11.3
